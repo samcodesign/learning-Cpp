@@ -9,11 +9,18 @@ int main(int argc, char const *argv[])
     int a = 9;
     int b = 5;
     int c;
-    if (a<=b) 
-    if (b<=c) { 
-        cout << "ordonné" ; 
-        a=c ;
-        } else cout << "non ordonné" ;
-    
+    if (a<=b) {
+        if (b<=c) { 
+            cout << "ordonné" ; 
+            a=c ;
+        }
+    } else cout << "non ordonné" ;
+    // if (a<=b) 
+    //     if (b<=c) { 
+    //         cout << "ordonné" ; 
+    //         a=c ;
+        
+    // } else cout << "non ordonné" ;
+
     return 0;
 }

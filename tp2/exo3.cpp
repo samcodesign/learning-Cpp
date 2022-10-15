@@ -5,7 +5,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     int n ;
-    cout << "donner un entier";
+    cout << "donner un entier: ";
     cin >> n;
 
     if (n == 0)
