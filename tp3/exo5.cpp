@@ -9,7 +9,7 @@ int main()
     t = new char[50];
     adres_ptr = &t[0];
     delete t;
-    cout << "adresse" << adres_ptr;
+    cout << "adresse" << &adres_ptr;
 
     return 0;
 }
