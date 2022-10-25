@@ -3,14 +3,17 @@ using namespace std;
 
 int main()
 {
-    int tab[10] = {9, 1, 5, 2, 3, 11, 6, 15, 12, 10};
+    int tab[10];
     int N;
     int Nb=0 ;
     float s = 0 , moy = 0;
 
     for (int i=0; i<10; i++)
     {
+        cout << "Entrer la note: "<< endl;
+        cin >> tab[i];
         s = s + tab[i];
+        
     }
 
     moy = s / 10;
